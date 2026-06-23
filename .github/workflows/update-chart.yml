@@ -2,7 +2,7 @@ name: Update Chart
 
 on:
   schedule:
-    - cron: '0 19 * * *'
+    - cron: '1 19 * * *'
   workflow_dispatch:
 
 permissions:
