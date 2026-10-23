@@ -142,7 +142,7 @@ df.index = pd.to_datetime(df.index)
 df = df.sort_index()
 
 # Filter dates
-df = df[df.index >= "2026-01-23"]
+df = df[df.index >= "2026-04-15"]
 df = df.sort_index()
 
 #========================================================================
