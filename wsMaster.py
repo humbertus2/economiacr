@@ -161,7 +161,7 @@ cmap = LinearSegmentedColormap.from_list(
 )
 
 lc = LineCollection(segments, cmap=cmap)
-lc.set_array(z[:-1])
+lc.set_array(z[1:])
 lc.set_linewidth(2)
 
 #========================================================================
